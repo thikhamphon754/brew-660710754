@@ -41,7 +41,7 @@ services:
       mc alias set myminio http://minio:9000 minioadmin minioadmin;
       mc mb myminio/bronze --ignore-existing;
       mc mb myminio/silver --ignore-existing;
-      mc mb myminio/gold --ignore-existing;
+      mc mb myminio/gold --ignore-existing;lso
       mc mb myminio/models --ignore-existing;
       exit 0;
       "
